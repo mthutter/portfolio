@@ -1,0 +1,79 @@
+/** @format */
+
+body {
+  background-color: rgb(9, 84, 87);
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border: solid rgb(39, 11, 32);
+}
+
+div > iframe {
+  border-radius: 3%;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 1%;
+}
+
+.hero {
+  border: solid blue 5px;
+  border-radius: 15px;
+  padding-top: 25px;
+  margin: 20px;
+  background-color: aqua;
+}
+
+.hero img {
+  height: 275px;
+  width: 350px;
+  border: solid beige 5px;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+.resume {
+  background-color: rgb(23, 182, 84);
+  border-radius: 15px;
+  border: solid blue 5px;
+  padding: 25px;
+  margin: 20px;
+}
+
+#contact-section {
+  background-color: rgb(114, 211, 16);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.contact-box {
+  border: solid rgb(27, 57, 190);
+  padding: 15px;
+  background-color: rgb(32, 182, 95);
+  width: 20vw;
+  height: 25vh;
+  border-radius: 15px;
+}
+
+.contact-map {
+  background-color: blue;
+  margin: 1.5rem;
+  border-radius: 3%;
+}
+
+.contact {
+  padding: 25px;
+  margin: 5px;
+}
+
+.footer {
+  border: solid black 5px;
+  margin: 15px;
+  text-align: center;
+}
+.footer div {
+  font-weight: bolder;
+  background-color: rgb(233, 84, 84);
+}
