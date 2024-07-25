@@ -26,8 +26,8 @@ div > iframe {
 }
 
 .hero img {
-  height: 275px;
-  width: 350px;
+  height: 250px;
+  width: 325px;
   border: solid beige 5px;
   border-radius: 25px;
   margin: 20px;
@@ -45,6 +45,7 @@ div > iframe {
   background-color: rgb(114, 211, 16);
   padding: 10px;
   margin: 20px;
+  border: solid blue 5px;
   border-radius: 15px;
 }
 
@@ -52,20 +53,33 @@ div > iframe {
   border: solid rgb(27, 57, 190);
   padding: 15px;
   background-color: rgb(32, 182, 95);
-  width: 20vw;
-  height: 25vh;
-  border-radius: 15px;
+  height: 60vh;
+  width: 305px;
+  border-radius: 15px;  
+  margin-top: 5px;
+  align-items: center;
+  text-align: left;
 }
 
 .contact-map {
-  background-color: blue;
-  margin: 1.5rem;
-  border-radius: 3%;
+  width: 100%;
+  height: 60vh;
+  padding-bottom: 56.25%;
+  margin-left: 111px ;
 }
 
-.contact {
-  padding: 25px;
-  margin: 5px;
+.contact-map > * {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    max-height: 450px;
+    width:  85%;
+    height: 95%;
+    border: solid darkgreen;
 }
 
 .footer {
@@ -73,6 +87,7 @@ div > iframe {
   margin: 15px;
   text-align: center;
 }
+
 .footer div {
   font-weight: bolder;
   background-color: rgb(233, 84, 84);
