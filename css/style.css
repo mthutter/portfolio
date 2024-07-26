@@ -1,4 +1,4 @@
-/** @format */
+/* Style sheet for first portfolio - July 2024 */
 
 body {
   background-color: rgb(9, 84, 87);
@@ -22,7 +22,25 @@ div > iframe {
   border-radius: 15px;
   padding-top: 25px;
   margin: 20px;
-  background-color: aqua;
+  
+}
+
+.gradient-background {
+  background: linear-gradient(296deg,#3ad86f,#3f8dc5,#863f3f,#e76645);
+  background-size: 240% 240%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .hero img {
@@ -78,4 +96,8 @@ div > iframe {
 .footer div {
   font-weight: bolder;
   background-color: rgb(233, 84, 84);
+}
+
+@media screen {
+  
 }
