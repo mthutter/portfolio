@@ -26,9 +26,9 @@ div > iframe {
 }
 
 .gradient-background {
-  background: linear-gradient(296deg,#3ad86f,#3f8dc5,#863f3f,#e76645);
+  background: linear-gradient(296deg,#349651,#5395c5,#5395c5,#349651);
   background-size: 240% 240%;
-  animation: gradient-animation 15s ease infinite;
+  animation: gradient-animation 10s ease infinite;
 }
 
 @keyframes gradient-animation {
