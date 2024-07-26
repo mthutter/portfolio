@@ -61,12 +61,6 @@ div > iframe {
   max-width: 250px;
 }
 
-.contact-map {
-  with: 100%;
-  heght: 70vh;
-  pading-bottom: 25%;
-}
-
 .contact-map > iframe {
   width: 85%;
   height: 95%;
